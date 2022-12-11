@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@100&family=Qahiri&display=swap');
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	background-color: #4e5660;
+}
+
+.clock {
+	border: 2px solid #cccccc;
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	font-family: 'Qahiri';
+}
+
+.display {
+	background-color: #8ee2e1;
+	width: 300px;
+	height: 200px;
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	border-radius: 10px;
+	color: #000000;
+	font-size: 7rem;
+	border: 10px solid #8eafe2;
+}
+
+footer {
+	padding: 15px;
+	font-size: 25px;
+	color: #000000;
+	font-family: 'Barlow';
+	font-weight: bold;
+}
